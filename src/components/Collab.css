@@ -1,0 +1,173 @@
+/* Collab.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.collab-cont {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  width: 100%;
+  color: #2E3136;
+  margin: 0 auto; /* Center align the container */
+
+}
+.collab-cont>p{
+    /* margin-top: 40px; */
+  padding: 100px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+display: flex;
+align-items: center;
+
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+  /* margin-top: 20px; */
+  position: relative;
+}
+
+.card-cont {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  /* justify-content: center; */
+  padding-bottom: 10px; /* Space to avoid scrollbar overlap */
+}
+
+.card-cont::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+.card {
+    
+  /* scroll-snap-align: start; Aligns each card to the start of the scroll container */
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.393);
+  width: 450px; /* Adjust card width to fit more cards on the screen */
+  flex-shrink: 0; /* Prevent cards from shrinking */
+  display: flex;
+  /* flex-direction: column; Stack items vertically */
+  padding: 5px;
+  background-color: #fff; /* Background color for cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.card:nth-of-type(1)
+{
+    margin-left: 100px;
+}
+
+.card:nth-of-type(3)
+{
+    margin-right: 100px;
+}
+
+.card img {
+  /* width: 100%; */
+ 
+  border-radius: 5px 5px 0 0; /* Rounded corners for the image */
+  object-fit: cover; /* Maintain aspect ratio of image */
+}
+
+.cardtxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px ;
+/* width: 40%; */
+  text-align: left; /* Align text to the left */
+}
+.collab-cont p img{
+    margin-left: 600px;
+}
+.cardtxt p {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cardtxt span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.last {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.last h4 {
+  margin: 0;
+  width: 80%;
+}
+
+.cardtxt img {
+  margin-left: 5px;
+  height: 16px;
+}
+
+
+.collaboration{
+    background-image: url('../assets/Rectangle34.png');
+    width: 1088px;
+    height: 305px;
+    background-position: center;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    /* padding: 70px;
+
+     */
+     /* margin: 10px; */
+    background-repeat: no-repeat;
+}
+.collabtxt{
+    padding: 30px;
+    margin-left: 30px;
+    width: 30%;
+    /* margin-left: 30px; */
+
+}
+.collabtxt span{
+    font-size: 28px;
+    font-weight: 600;
+color: #1d1d1d;
+
+
+}
+
+.collabtxt p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+color: #2E3136;
+}
+.collab-cont>img:nth-of-type(1){
+    position: relative;
+    margin: 0;
+    left: 620px;
+    top: -60px;
+    }
+.collab-cont>img:nth-of-type(2){
+position: relative;
+margin: 0;
+left: 100px;
+top: 80px;
+}
+
+.partners{
+    width: 70%;
+    margin-left: 30px;
+}
+.partners img{
+    margin: 25px;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.footer{
+  font-family: "Montserrat", sans-serif;
+
+    background-image: url('../assets/Rectangle 11.png');
+    height: 269px;
+    width: 100%;    
+    color: white;
+    display: flex;
+    /* padding: 30px; */
+    border-bottom: 10px solid #A3E659;
+}
+.firfooter{
+ padding: 40px;
+ padding-left: 120px;
+ font-weight: 500;
+ width: 40%;
+ padding-right: 150px;
+}
+.secfooter{
+    width: 50%;
+}
+.firfooter span{
+    font-size: 28px;
+    display: block;
+    margin-bottom: 10px;
+}
+.firfooter p{
+    font-size: 18px;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+
+}
+.firfooter p img{
+    margin-right:10px ;
+}
+.secfooter img{
+    margin: 5px;
+}

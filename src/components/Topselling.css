@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.tscont{
+    /* padding: 30px; */
+    /* margin: 30px; */
+    padding-top: 50px;
+    font-family: "Montserrat", sans-serif;
+
+    background-image: url('../assets/Rectangle.png');
+    background-position: center;
+    /* background-size: cover; */
+    height: 683px;
+    width: 100%;
+    /* width: 1173px; */
+    background-color: #fff9ef;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: ; */
+  
+}
+.course{
+    display: flex;
+    /* display: flex; */
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+.assex{
+    position: relative;
+    left: 1040px;
+    display: inline;
+    top: -30px;
+}
+.topsellcour
+{
+    color: white;
+    padding-top: 50px;
+    width: 30%;
+}
+.viewall{
+    font-size: 18px;
+    padding: 40px;
+    padding-top: 50px;
+    width: 70%;
+    padding-right: 100px;
+    color: white;
+    margin-right: 30px;
+}
+.viewall>p:nth-of-type(1){
+    color: #F4B955;
+}
+.crs {
+font-size: 18px;
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+.topsellcour h1{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.crs img{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+hr{
+    margin-top: 20px;
+    background-color: #F4B955;
+    height: .6px;
+    border: 0;
+}
+.crs:nth-of-type(2){
+    padding: 10px;
+    background-color: #2a714f;
+    border-radius: 10px;
+}
+h2 span{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.603);
+}
+.viewall a,a img{
+    color: #F4B955;
+
+}
+
+.viewall a{
+    margin-right: 40px;
+}
+.bottom{
+    /* display: block; */
+    width: 90%;
+    background-color: #ECF8DF;
+    margin-top: 100px;
+    height: 20vh;
+    border-radius: 20px;
+    display: flex;
+}
+.div {
+    display: flex;
+    width: 30%;
+    margin-left: 50px;
+    /* margin-top:10px; */
+    
+}
+.subs{
+    position: relative;
+    top: 30px;
+}
+.grp91{
+    position: relative;
+    top: -50px;
+    left: -200px;
+}
+.text{
+width: 40%;
+
+}
+.text h1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+font-size: 24px;
+font-weight: 600;
+}
+.takeq{
+    /* margin-left: 20px; */
+    padding: 8px;
+    margin: auto 0;
+    border: 0;
+    font-size: 16px;
+    width: 15%;
+    border-radius: 20px;
+    font-weight: 600;
+    height: fit-content;
+    text-shadow: 2px 2px 4px  grey;
+    background-color: #F4B955;
+    margin-right: 40px;
+}

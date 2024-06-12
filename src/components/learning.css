@@ -1,0 +1,137 @@
+/* Collab.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.learn-cont {
+    background-color: #fff9ef;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  width: 100%;
+  color: #2E3136;
+  margin: 0 auto; /* Center align the container */
+padding-bottom: 50px;
+}
+.learn-cont>p{
+    /* margin-top: 40px; */
+  padding: 100px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+display: flex;
+align-items: center;
+
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+  /* margin-top: 20px; */
+  position: relative;
+}
+
+.card-cont {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  width: 95%;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  /* justify-content: center; */
+  padding-bottom: 10px; /* Space to avoid scrollbar overlap */
+}
+
+.card-cont::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+.learn-cont .card {
+    
+  /* scroll-snap-align: start; Aligns each card to the start of the scroll container */
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.393);
+  width: 352px;
+  height: 360px; 
+    flex-shrink: 0; 
+      display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: #fff; /* Background color for cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.card:nth-of-type(1)
+{
+    margin-left: 100px;
+}
+
+.card:nth-of-type(3)
+{
+    margin-right: 100px;
+}
+
+.card img {
+  /* width: 100%; */
+ 
+  border-radius: 5px 5px 0 0; /* Rounded corners for the image */
+  object-fit: cover; /* Maintain aspect ratio of image */
+}
+
+.learn-cont .cardtxt {
+    margin-top: 10px;
+    height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px ;
+width: 90%;
+/* padding-bottom: 20px; */
+  text-align: left; /* Align text to the left */
+}
+.learn-cont p span{
+
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 20%;
+    justify-content: space-between;
+}
+.cardtxt p {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cardtxt span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.last {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.last h4 {
+  margin: 0;
+  width: 80%;
+}
+
+.cardtxt img {
+  margin-left: 5px;
+  height: 16px;
+}
+
+
+.learn-cont>img:nth-of-type(1){
+    position: relative;
+    margin: 0;
+    left: 620px;
+    top: 0px;
+    }
+
